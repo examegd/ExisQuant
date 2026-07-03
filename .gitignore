@@ -1,0 +1,7 @@
+*.gguf
+*.exiq
+*.exe
+qwen_raw/
+qwen_raw_1.5b/
+__pycache__/
+.vscode/
