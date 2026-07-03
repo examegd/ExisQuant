@@ -30,12 +30,8 @@ exisquant operates as a two-stage hybrid compression framework:
 
 ## repository structure
 
-* `pack_awq.py` — python encoder for the hybrid 3-bit/4-bit awq compilation.
-* `pack_vq.py` — weight-only vector quantization compiler (4d k-means).
-* `unpack_vq.cpp` — high-speed native c++17 decompressor and gguf patcher.
-* `imatrix.py` — pytorch activation capture utility.
-* `generate_doc.py` — pdf compiler that generates the sci-fi project report.
-
+* `packer.py` — weight-only vector quantization compiler (4d k-means).
+* `unpacker.cpp` — high-speed native c++17 decompressor and gguf patcher.
 ---
 
 ## compilation (c++)
