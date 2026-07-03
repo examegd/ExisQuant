@@ -37,7 +37,8 @@ exisquant operates as a two-stage hybrid compression framework:
 
 ##important note
 **AWQ quantization works exclusively with 4-bit quantization (GGUF)**
-
+The repository also includes the lightweight qwen2.5-0.5b-instruct-q4_0 model, along with its raw weights in the `qwen_raw` folder.
+If you wish to experiment with the AWQ algorithm, you need to replace all the weights in that folder with the weights of your new model.
 ---
 
 ## compilation (c++)
